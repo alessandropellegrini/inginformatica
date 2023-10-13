@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Modifica: Inizio lezioni di Filosofia della tecnica: fondamenti e implicazioni sociali"
 ---
 

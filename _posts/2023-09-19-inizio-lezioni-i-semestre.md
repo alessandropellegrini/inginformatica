@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title:  "Inizio lezioni I semstre A.A. 2023/2024"
 ---
 
