@@ -22,5 +22,6 @@ sass:
   style: compressed
 
 # Per la lista delle ultime comunicazioni
-paginate: 5
+news-in-home: 5
+paginate: 10
 paginate_path: "/news/page:num/"
