@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Percorso Magistrale
+title: Percorso Triennale
 exclude-from-menu: true
 ---
 

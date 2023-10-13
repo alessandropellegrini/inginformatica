@@ -13,5 +13,5 @@ Testo introduttivo
   </article>
 {% endfor %}
 
-Visualizza tutte le [{{ site.posts | size }} comunicazioni]({{ site.url }}{{ site.baseurl }}/news/).
+Visualizza tutte le [{{ site.posts | size }} comunicazioni]({{ site.url }}{{ site.baseurl }}/comunicazioni/).
 

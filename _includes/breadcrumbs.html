@@ -1,5 +1,12 @@
+{% assign year = page.date | date: "%Y" %}
+{% assign year_page_url = "/" | append: year | append: "/" %}
+{% assign month_int = page.date | date: "%m" %}
+{% assign month_page_url = year_page_url | append: month_int | append: "/" %}
+{% assign day_int = page.date | date: "%d" %}
+{% assign day_page_url = month_page_url | append: day_int %}
+
 <div id="breadcrumbs">
-{% assign crumbs = page.url | remove: '/index.html' | split: '/' %}
+{% assign crumbs = page.url | remove: '/index.html' | replace: day_page_url, '/comunicazioni' | split: '/' %}
 
     <a href="{{ '/' | relative_url }}">Home</a>
 
