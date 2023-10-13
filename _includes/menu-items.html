@@ -1,0 +1,6 @@
+{%- for item in site[include.category] -%}
+    {%- if !item.exclude-from-menu == true -%}
+    {%- else -%}
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    {%- endif -%}
+{%- endfor -%}

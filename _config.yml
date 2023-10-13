@@ -1,2 +1,21 @@
-title: IngInf
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+title: "Corso di Laurea in Ingegneria Informatica"
+url: ""
+
+# Pagine statiche per categoria
+collections:
+  triennale:
+    output: true
+  magistrale:
+    output: true
+  contatti:
+    output: true
+
+category-list: [triennale, magistrale, contatti]
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-relative-links
+
+sass:
+  style: compressed

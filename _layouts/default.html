@@ -1,21 +1,45 @@
-<html>
-	<body>
-		{{ title }}<br/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ site.url }}/style.css">
+    <link rel="shortcut icon" href="{{ site.url }}/img/favicon.ico">
+</head>
+<body>
 
-<h1>MENU</h1>
-{% assign mypages = site.pages | group_by: 'category' %}
-{% for cat in pages %}
-<h2>{{ cat.name | capitalize }}</h2>
-    <ul>
-      {% assign items = cat.items | sort: 'order' %}
-      {% for item in items %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-      {% endfor %}
-    </ul>
-{% endfor %}
+{% include menu.html %}
+
+<!-- Header -->
+<header class="w3-container w3-green w3-center" style="padding:100px 16px">
+    <p class="w3-large"><img alt="Università degli Studi di Roma Tor Vergata" src="{{ site.url}}/img/logo.png"/></p>
+    <h6 class="w3-margin w3-jumbo">Corso di Laurea in Ingegneria Informatica</h6>
+</header>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+        <p class="w3-text-grey">
+            {{ content }}
+        </p>
+    </div>
+</div>
 
 
-<h1>Content</h1>
-{{ content }}
-	</body>
+<!-- Footer -->
+<!--
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <div class="w3-xlarge w3-padding-32">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+</footer>
+-->
+
+<script type="text/javascript" src="{{ site.url }}/code.js"></script>
+</body>
 </html>
