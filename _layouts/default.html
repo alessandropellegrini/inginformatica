@@ -4,8 +4,8 @@
     <title>{{ site.title }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ site.url }}/style.css">
-    <link rel="shortcut icon" href="{{ site.url }}/img/favicon.ico">
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/style.css">
+    <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
 </head>
 <body>
 
@@ -13,7 +13,7 @@
 
 <!-- Header -->
 <header class="w3-container w3-green w3-center" style="padding:100px 16px">
-    <p class="w3-large"><img alt="Università degli Studi di Roma Tor Vergata" src="{{ site.url}}/img/logo.png"/></p>
+    <p class="w3-large"><img alt="Università degli Studi di Roma Tor Vergata" src="{{ site.url }}{{ site.baseurl }}/img/logo.png"/></p>
     <h6 class="w3-margin w3-jumbo">Corso di Laurea in Ingegneria Informatica</h6>
 </header>
 
@@ -40,6 +40,6 @@
 </footer>
 -->
 
-<script type="text/javascript" src="{{ site.url }}/code.js"></script>
+<script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/code.js"></script>
 </body>
 </html>

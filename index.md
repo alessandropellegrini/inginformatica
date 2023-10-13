@@ -9,9 +9,9 @@ Testo introduttivo
 
 {% for post in site.posts limit:site.news-in-home %}
   <article>
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d/%m/%y" }}</time> - <a href="{{ post.url }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%d/%m/%y" }}</time> - <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </article>
 {% endfor %}
 
-Visualizza tutte le [{{ site.posts | size }} comunicazioni]({{ site.url}}/news/).
+Visualizza tutte le [{{ site.posts | size }} comunicazioni]({{ site.url }}{{ site.baseurl }}/news/).
 
