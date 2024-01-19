@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contatti
+title: Organizzazione
 exclude-from-menu: true
 ---
 

@@ -6,7 +6,9 @@ collections:
     output: true
   magistrale:
     output: true
-  contatti:
+  erasmus:
+    output: true
+  organizzazione:
     output: true
 
 exclude: [README.md]

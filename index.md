@@ -3,7 +3,7 @@ layout: default
 title: Benvenuti
 ---
 
-Testo introduttivo
+Testo introduttivo di prova
 
 ## Ultime comunicazioni
 
