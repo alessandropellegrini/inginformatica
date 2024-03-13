@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title:  "16 novembre 2011: giornata informativa su opportunità negli USA"
 ---
-	Caro studente, ricercatore e docente,  
+
+Caro studente, ricercatore e docente,
 stiamo organizzando una giornata di informazioni sulle opportunità di studio ricerca e lavoro negli Stati Uniti. Il 16 novembre 2011 la Facoltà di Ingegneria ospiterà, nell’edificio didattica, due eventi dedicati a studenti di triennale e specialistica ma anche ricercatori e docenti. Di seguito troverai le indicazioni che ti serviranno per accedere. Ti aspettiamo!!
 
 Dalle ore 10.00 fino alle 17.00 , Aula Leonardo terzo piano
@@ -26,15 +26,15 @@ Dalle ore 14.30 , Aula Convegni - piano terra
 
 Anche quest’anno la Dr.ssa Isabella Lanciotti della Commissione per gli Scambi Culturali fra L’Italia e gli Stati Uniti (The U.S.  Italy Fulbright Commission)presenterà il Programma Fulbright [http://www.fulbright.it/it](http://www.fulbright.it) attualmente il più importante programma di scambi culturali internazionali degli Stati Uniti. Il Programma opera in più di 155 paesi nel mondo e sono circa 294.000 i partecipanti che nel corso di 60 anni hanno beneficiato di una borsa Fulbright per programmi di studio, ricerca o insegnamento negli Stati Uniti e nei paesi aderenti al programma. Ogni anno nel mondo sono assegnate circa 7.500 borse di studio Fulbright finalizzate allo studio, ricerca ed insegnamento a studenti, laureati, dottorandi e docenti in Università statunitensi.
 
-Marina Tesauro  
-Ufficio Relazioni Internazionali  
+Marina Tesauro
+Ufficio Relazioni Internazionali
 [.(JavaScript must be enabled to view this email address)
 //<![CDATA[
 var l=new Array();
 var output = '';
 l[0]='>';l[1]='a';l[2]='/';l[3]='<';l[4]=' 116';l[5]=' 105';l[6]=' 46';l[7]=' 50';l[8]=' 97';l[9]=' 109';l[10]=' 111';l[11]=' 114';l[12]=' 105';l[13]=' 110';l[14]=' 117';l[15]=' 64';l[16]=' 111';l[17]=' 114';l[18]=' 117';l[19]=' 97';l[20]=' 115';l[21]=' 101';l[22]=' 116';l[23]='>';l[24]='\"';l[25]=' 116';l[26]=' 105';l[27]=' 46';l[28]=' 50';l[29]=' 97';l[30]=' 109';l[31]=' 111';l[32]=' 114';l[33]=' 105';l[34]=' 110';l[35]=' 117';l[36]=' 64';l[37]=' 111';l[38]=' 114';l[39]=' 117';l[40]=' 97';l[41]=' 115';l[42]=' 101';l[43]=' 116';l[44]=':';l[45]='o';l[46]='t';l[47]='l';l[48]='i';l[49]='a';l[50]='m';l[51]='\"';l[52]='=';l[53]='f';l[54]='e';l[55]='r';l[56]='h';l[57]='a ';l[58]='<';
-for (var i = l.length-1; i >= 0; i=i-1){ 
-if (l[i].substring(0, 1) == ' ') output += "&#"+unescape(l[i].substring(1))+";"; 
+for (var i = l.length-1; i >= 0; i=i-1){
+if (l[i].substring(0, 1) == ' ') output += "&#"+unescape(l[i].substring(1))+";";
 else output += unescape(l[i]);
 }
 document.getElementById('eeEncEmail\_hEZeAmvXbA').innerHTML = output;

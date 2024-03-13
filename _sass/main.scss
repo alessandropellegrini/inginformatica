@@ -1,4 +1,9 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+
+:root{
+  --torve-green: #007d34;
+}
+
 html, body {
   font-family: $font-name;
   font-size: $font-size;
@@ -68,14 +73,6 @@ hr {
 .w3-image {
   max-width: 100%;
   height: auto
-}
-
-img {
-  vertical-align: middle
-}
-
-a {
-  color: inherit
 }
 
 .w3-table, .w3-table-all {
@@ -1526,3 +1523,5 @@ a {
   max-width: 600px;
   text-align: center;
 }
+
+

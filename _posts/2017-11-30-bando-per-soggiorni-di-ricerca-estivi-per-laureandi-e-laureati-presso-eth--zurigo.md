@@ -1,10 +1,10 @@
-
 ---
 layout: post
 title:  "Bando per soggiorni di ricerca estivi per laureandi e laureati presso ETH - Zurigo"
 ---
-	The Computer Science Department at ETH offers a summer research fellowship for undergraduate and graduate students over the summer months (1 July – 31 August 2018). Applications for the program are open to all students – international students are particularly encouraged (deadline: 31 December 2017).  
-  
+
+The Computer Science Department at ETH offers a summer research fellowship for undergraduate and graduate students over the summer months (1 July – 31 August 2018). Applications for the program are open to all students – international students are particularly encouraged (deadline: 31 December 2017).
+
 The program offers:
 
 * **Research experience**: fellows will pursue a research project that aligns with a chosen area of their interest as part of a research group in the CS department. This includes interacting and collaborating with group members.

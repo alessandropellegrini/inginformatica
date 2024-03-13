@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title:  "Sospensione lezioni in presenza ed altre disposizioni"
 ---
-	In conseguenza del passaggio del Lazio in zona rossa da lunedì 15 marzo 2021 sono applicate le seguenti disposizioni:
+
+In conseguenza del passaggio del Lazio in zona rossa da lunedì 15 marzo 2021 sono applicate le seguenti disposizioni:
 
 * È sospesa la frequenza in presenza delle attività formative e curriculari di tutti i corsi di studio (lauree, lauree magistrali, master, corsi di dottorato), che proseguiranno a distanza.
 * Gli esami e le sedute di laurea sono svolti con modalità a distanza.

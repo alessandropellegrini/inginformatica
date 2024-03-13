@@ -1,0 +1,43 @@
+.toc__list {
+  padding:0px;
+  color: var(--torve-green);
+}
+
+.toc__list a {
+    text-decoration: none;
+}
+
+.toc__list a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: var(--torve-green);
+}
+
+
+table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.cell {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+#navMenu ul {
+  list-style-type: none;
+}
+
+
+
+#navMenu a {
+  color: white;
+}
