@@ -1,0 +1,66 @@
+<div class="w3-container">
+    <h1 class="w3-center">University Course Selection</h1>
+    <div class="w3-row">
+        <div class="w3-col m3">
+            <div class="w3-hide">
+                <input type="checkbox" id="A_scelta" onchange="updateChart()" checked disabled class="already-set hidden"> A scelta
+                <br>
+            </div>
+            <input type="checkbox" id="Analisi_matematica_1" onchange="updateChart()" checked disabled class="already-set"> Analisi matematica 1
+            <br>
+            <input type="checkbox" id="Analisi_matematica_2" onchange="updateChart()" checked disabled class="already-set"> Analisi matematica 2
+            <br>
+            <input type="checkbox" id="Fisica_1" onchange="updateChart()" checked disabled class="already-set"> Fisica 1
+            <br>
+            <input type="checkbox" id="Fisica_2" onchange="updateChart()" checked disabled class="already-set"> Fisica 2
+            <br>
+            <input type="checkbox" id="Geometria" onchange="updateChart()"  checked disabled class="already-set"> Geometria
+            <br>
+            <input type="checkbox" id="Probabilita_e_statistica" onchange="updateChart()"  checked disabled class="already-set"> Probabilità e statistica
+            <br>
+            <input type="checkbox" id="Ricerca_operativa" onchange="updateChart()" checked disabled class="already-set"> Ricerca operativa
+            <br>
+            <input type="checkbox" id="Fondamenti_di_elettronica" onchange="updateChart()" checked disabled class="already-set"> Fondamenti di elettronica
+            <br>
+            <input type="checkbox" id="Fondamenti_di_telecomunicazioni" onchange="updateChart()" checked disabled class="already-set"> Fondamenti di telecomunicazioni
+            <br>
+            <input type="checkbox" id="Fondamenti_di_informatica" onchange="updateChart()"  checked disabled class="already-set"> Fondamenti di informatica
+            <br>
+            <input type="checkbox" id="Ingegneria_degli_algoritmi" onchange="updateChart()"  checked disabled class="already-set"> Ingegneria degli algoritmi
+            <br>
+            <input type="checkbox" id="Calcolatori_elettronici" onchange="updateChart()" checked disabled class="already-set"> Calcolatori elettronici
+            <br>
+            <input type="checkbox" id="Sistemi_operativi" onchange="updateChart()" checked disabled class="already-set"> Sistemi operativi
+            <br>
+            <input type="checkbox" id="Ingegneria_del_software_e_progettazione_Web" onchange="updateChart()" checked disabled class="already-set"> Ingegneria del software e progettazione Web
+            <br>
+            <input type="checkbox" id="Fondamenti_di_controlli" onchange="updateChart()" checked disabled class="already-set"> Fondamenti di controlli
+            <br>
+            <input type="checkbox" id="Algebra_e_logica" onchange="updateChart()" class="already-set"> Algebra e logica
+            <br>
+            <input type="checkbox" id="Automi_e_linguaggi" onchange="updateChart()" class="already-set"> Automi e linguaggi
+            <br>
+            <input type="checkbox" id="Ingegneria_di_Internet_e_Web" onchange="updateChart()" class="already-set"> Ingegneria di Internet e Web
+            <br>
+            <input type="checkbox" id="Basi_di_dati" onchange="updateChart()" class="already-set"> Basi di dati
+            <br>
+            <input type="checkbox" id="Automazione_e_robotica" onchange="updateChart()" class="already-set"> Automazione e robotica
+            <br>
+            <input type="checkbox" id="Controlli_automatici" onchange="updateChart()" class="already-set"> Controlli automatici
+            <br>
+            <input type="checkbox" id="Laboratorio_di_automatica" onchange="updateChart()" class="already-set"> Laboratorio di automatica
+            <br>
+            <input type="checkbox" id="Teoria_dei_sistemi" onchange="updateChart()" class="already-set"> Teoria dei sistemi
+        </div>
+        <div class="w3-col m6">
+             <div id="chart-container" class="w3-card w3-white w3-padding">
+                 <canvas id="myChart"></canvas>
+                </div>
+                <div>
+                    <input type="radio" id="sistemi_software_e_web" name="courseChoice" onchange="updateChart()"> Sistemi software e web
+                    <br>
+                    <input type="radio" id="robotica_ed_automazione" name="courseChoice" onchange="updateChart()"> Robotica ed automazione
+                </div>
+        </div>
+    </div>
+</div>

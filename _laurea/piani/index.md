@@ -4,6 +4,9 @@ title: Piani di studio
 toc: true
 ---
 
+---
+
+
 ### Presentazione piano di studi
 
 * Per chi si immatricola al **primo anno** del Corso di Laurea, non occorre presentare un piano di studio, in quanto il primo anno è sostanzialmente identico per tutti gli indirizzi in cui la laurea è articolata, con l'unica eccezione degli insegnamenti di:
@@ -28,6 +31,9 @@ I moduli sono scaricabili in fondo a questa pagina pagina.
 Il modulo del piano di studio - debitamente compilato e sottoscritto – va inviato, in formato . pdf, per email alla Segreteria Didattica del Corso di Studio (didattica.informatica@ing.uniroma2.it).
 
 Gli esiti dei piani di studio verranno pubblicati su questo sito, nella sezione Comunicazioni, entro un mese dalla scadenza di presentazione (o alla ripresa dopo la chiusura dell'Ateneo per le festività nel caso di presentazione entro il **30 Novembre**). 
+
+---
+
 
 ### Modulistica
 

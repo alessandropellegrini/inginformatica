@@ -8,7 +8,7 @@ toc: true
 * Codice corso: xxxxx
 * Codice prova: xxxxx
 * Facoltà: Ingegneria
-* Dipartimento: Dipartiment di Ingegneria Civile e Infrmatica
+* Dipartimento: Dipartimento di Ingegneria Civile e Informatica
 * Durata: 3 anni
 * Classe di Laurea: L-8
 * Tipologia di corso: Laurea
@@ -58,14 +58,17 @@ Per il conseguimento della Laurea in Ingegneria Informatica è necessario acquis
   * volte ad agevolare le scelte professionali (6 crediti).
 
 
+---
+
+
 ### Indirizzi ed insegnamenti
 
 Gli insegnamenti inseriti nel percorso formativo della laurea in Ingegneria Informatica possono essere inquadrati in quattro aree che hanno i seguenti obiettivi generali:
 
-* **Area A - Insegnamenti di base**: Fornire una solida preparazione di base: sia in senso generale (approfondendo temi relativi alle discipline matematiche e fisiche: Analisi matematica 1 e Analisi matematica 2, Fisica generale 1 e Fisica generale 2, Geometria, Probabilità e statistica, Ricerca operativa) sia in ambiti più vicini all’informatica (approfondendo temi relativi ad algebra, logica, teoria degli automi e linguaggi, algoritmi, linguaggi di programmazione: Algebra e logica, Automi e linguaggi, Fondamenti di informatica, Ingegneria degli algoritmi);
-* **Area B - Ingegneria informatica**:Calcolatori e reti Fornire una solida base di conoscenze e una adeguata preparazione sulla organizzazione, programmazione e progettazione dei moderni sistemi informatici e delle loro reti di interconnessione (Calcolatori elettronici, Ingegneria di Internet e Web, Sistemi operativi);
-* **Area C - Ingegneria dell'automazione**: Fornire una solida preparazione relativa alla programmazione e progettazione di moderne applicazioni software, o di sistemi per l’automazione e la robotica (Automazione e robotica, Basi di dati, Controlli automatici, Ingegneria del software e progettazione Web, Laboratorio di automatica, Mobile programming, Teoria dei sistemi);
-* **Area D - Ingegneria dell'informazione** Fornire una formazione di base in aree dell’Ingegneria dell’informazione contigue all’informatica, allo scopo di completare la formazione di un ingegnere informatico (Campi elettromagnetici, Fondamenti di controlli, Fondamenti di elettronica, Fondamenti di telecomunicazioni).
+* **Area A**: Fornire una solida preparazione di base: sia in senso generale (approfondendo temi relativi alle discipline matematiche e fisiche: Analisi matematica 1 e Analisi matematica 2, Fisica generale 1 e Fisica generale 2, Geometria, Probabilità e statistica, Ricerca operativa) sia in ambiti più vicini all’informatica (approfondendo temi relativi ad algebra, logica, teoria degli automi e linguaggi, algoritmi, linguaggi di programmazione: Algebra e logica, Automi e linguaggi, Fondamenti di informatica, Ingegneria degli algoritmi);
+* **Area B**: Fornire una solida base di conoscenze e una adeguata preparazione sulla organizzazione, programmazione e progettazione dei moderni sistemi informatici e delle loro reti di interconnessione (Calcolatori elettronici, Ingegneria di Internet e Web, Sistemi operativi);
+* **Area C**: Fornire una solida preparazione relativa alla programmazione e progettazione di moderne applicazioni software, o di sistemi per l’automazione e la robotica (Automazione e robotica, Basi di dati, Controlli automatici, Ingegneria del software e progettazione Web, Laboratorio di automatica, Mobile programming, Teoria dei sistemi);
+* **Area D** Fornire una formazione di base in aree dell’Ingegneria dell’informazione contigue all’informatica, allo scopo di completare la formazione di un ingegnere informatico (Campi elettromagnetici, Fondamenti di controlli, Fondamenti di elettronica, Fondamenti di telecomunicazioni).
 
 
 La Laurea in Ingegneria Informatica è organizzata in due indirizzi:
@@ -137,8 +140,8 @@ In particolare, il regolamento specifica le norme che regolano i seguenti punti:
 
 Il testo completo del Regolamento Didattico in formato pdf è disponibile [qui][1]	
 
-[1]:{{ site.url }}/laurea/corso/Reg_Did_InformaticaTrienn_2016.pdf
-[2]: http://uniroma2public.gomp.it/PublicData?uid=15cd10f5-5764-42e1-a41f-3830e1bf51da&mode=course&iso=ita&academicYear=2023
-[3]: http://uniroma2public.gomp.it/PublicData?uid=22b36c01-1590-47e7-b425-d4006c7382bb&mode=classRoom&iso=ita&academicYear=2023
+[1]: {{ site.url }}/laurea/corso/Reg_Did_InformaticaTrienn_2016.pdf
+[2]: {{ site.data.laurea.programmata }}
+[3]: {{ site.data.laurea.erogata }}
 
 

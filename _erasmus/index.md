@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Erasmus+
-exclude-from-menu: false
 toc: true
 ---
 

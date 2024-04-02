@@ -4,6 +4,9 @@ title: Sessioni di laurea
 toc: true
 ---
 
+---
+
+
 ### Modalità di preparazione e presentazione della prova finale
 
 I crediti (e corrispondente valutazione) relativi alla prova finale possono essere acquisiti secondo due distinte modalità, denominate, rispettivamente:
@@ -24,6 +27,9 @@ per i candidati che scelgono la modalità "prova curricolare", il titolo della t
 4. caricare su Delphi, **ALMENO UNA SETTIMANA PRIMA** della data prevista per la sessione di laurea, una copia della propria relazione in formato pdf come indicato sulla pagina Laurea della Segreteria Studenti; il formato e contenuto di tale relazione differisce per le due modalità, come specificato sotto;
 
 5. presentarsi il giorno previsto per la sessione di laurea; per entrambe le modalità non è prevista discussione pubblica, ma solo la proclamazione del risultato finale conseguito.
+
+---
+
 
 ### Tipo di relazione da presentare per la prova finale
 
@@ -49,27 +55,33 @@ L'idoneità relativa ai 6 crediti di tirocinio inclusi nel curriculum può esser
 * nel caso di prova finale svolta secondo la modalità "elaborato individuale aggiuntivo": utilizzando il monte ore corrispondente ai 6 crediti del tirocinio per acquisire conoscenze preparatorie all'elaborato individuale da presentare come prova finale (in questo caso le attività da svolgere verranno suggerite dal relatore della tesi, che sarà lo stesso che rilascerà l'attestato di idoneità per il tirocinio);
 * nel caso di prova finale svolta secondo la modalità "prova curricolare": utilizzando il monte ore corrispondente ai 6 crediti del tirocinio come ulteriore tempo di studio a disposizione per la preparazione delle materie caratterizzanti (in questo caso l'attestazione verrà rilasciata al momento della presentazione della domanda di laurea in cui si specifica la scelta di questa modalità di prova finale).
 
+---
+
+
 
 ### Sedute di laurea A.A. 2022/2023
 
 * Sessione di Luglio 2023 (laurea + laurea magistrale):
   * martedì 18 Luglio, aula Convegni
   * venerdì 21 Luglio, aula Leonardo
-  * Calendario sessione di laurea di Luglio 2023
+  * [Calendario sessione di laurea di Luglio 2023][1]
 
 * Sessione di Ottobre 2023 (laurea + laurea magistrale):
   * venerdì 27 Ottobre, aula Convegni
   * martedì 31 Ottobre, aula Convegni
-  * Calendario sessione di laurea di Ottobre 2023
+  * [Calendario sessione di laurea di Ottobre 2023][2]
 
 * Sessione di Febbraio 2024 (laurea + laurea magistrale)
   * martedì 27 Febbraio, aula Convegni
   * mercoledì 28 Febbraio, aula Convegni
-  * Calendario sessione di laurea di Febbraio 2024
+  * [Calendario sessione di laurea di Febbraio 2024][3]
 
 * Sessione di Aprile 2024 (laurea + laurea magistrale)
   * giovedì 18 Aprile, aula Convegni
   * venerdì 19 Aprile, aula Convegni
+
+
+---
 
 
 ### Sedute di laurea A.A. 2023/2024
@@ -90,3 +102,8 @@ L'idoneità relativa ai 6 crediti di tirocinio inclusi nel curriculum può esser
 * Sessione di Aprile 2025 (laurea + laurea magistrale)
   * giovedì 17 Aprile 2025, aula Convegni
   * venerdì 18 Aprile 2025, aula Convegni
+
+
+[1]: {{ site.url }}/media/ComLaureeIngInfo2307.pdf
+[2]: {{ site.url }}/media/ComLaureeIngInfo2310.pdf
+[3]: {{ site.url }}/media/ComLaureeIngInfo2402.pdf 

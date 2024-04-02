@@ -1,0 +1,36 @@
+<table class="w3-table w3-table-all">
+  <thead >
+    <tr>
+      <th>Informazioni</th>
+      <th>Chi contattare</th>
+      <th>Come</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for contatto in site.data.contatti %}
+      <tr>
+          <td>
+            <ul>
+              {% for m in contatto.why %}
+              <li>
+                  {{ m.testo }}
+              </li>
+              {% endfor %}
+            </ul>
+          </td>
+          <td>
+            {{ contatto.who }}
+          </td>
+          <td>
+            <ul>
+              {% for c in contatto.how %}
+              <li>
+                  {{ c.field }}: {{ c.value }}
+              </li>
+              {% endfor %}
+            </ul>
+          </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

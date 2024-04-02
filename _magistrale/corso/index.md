@@ -5,12 +5,12 @@ toc: true
 ---
 
 
-* Codice corso: xxxxx
+* Codice corso: {{ site.data.magistrale.codice }}
 * Codice prova: xxxxx
 * Facoltà: Ingegneria
-* Dipartimento: Dipartiment di Ingegneria Civile e Infrmatica
-* Durata: 3 anni
-* Classe di Laurea: L-8
+* Dipartimento: Dipartimento di Ingegneria Civile e Informatica
+* Durata: {{ site.data.magistrale.durata }}
+* Classe di Laurea: {{ site.data.magistrale.classe }}
 * Tipologia di corso: Laurea
 * Modalità di accesso: Libera
 
@@ -18,81 +18,59 @@ toc: true
 
 ### Obiettivi formativi
 
-Formare laureati che che abbiano acquisito conoscenze e competenze utilizzabili sia per
-svolgere professioni tecnico-applicative di natura informatica, sia come base su cui
-innestare gli approfondimenti previsti dalla laurea di 2° livello in ingegneria informatica.
-
-Più che presentare specifiche tecnologie informatiche, si intende privilegiare l'acquisizione
-di capacità di affrontare problemi ingegneristici-informatici con un approccio sistematico
-ed effettivo. A questo scopo, oltre ad una competenza di base nelle tematiche
-metodologiche-operative proprie della classe (delineate sopra), i laureati dovranno avere
-competenze specifiche sui seguenti temi:
-
-* fondamenti dell'informatica: automi, algoritmi e linguaggi di programmazione, teoria
-della computabilità e complessità computazionale;
-* strumenti operativi per l'informatica: istallazione, configurazione, gestione di macchine,
-impianti, reti di comunicazione, sistemi informatici e sistemi di automazione;
-* applicazioni informatiche: gestione, manutenzione e sviluppo di sistemi informatici per la
-gestione di altri sistemi (civili, economici, industriali, avionici, satellitari, energetici,
-medicali, di telecomunicazioni e trasporto, di ambiente e territorio, di automazione), sistemi
-informativi.
-
-Per fornire adeguate competenze di base su tematiche proprie della classe, il corso di studio
-prevede di articolare la sua offerta formativa con numero di crediti per attività di base
-superiore al minimo di legge (36).
-
-Per fornire una adeguata preparazione su temi di natura informatica, il corso di studi
-prevede almeno 45 crediti di attività caratterizzanti l'ambito informatico.
+Il corso di Laurea Magistrale in Ingegneria Informatica intende formare laureati che abbiano un elevato livello di competenze metodologiche e operative nel campo dell’informatica e dell’automazione, unite a competenze di natura matematico-statistica. Grazie a queste competenze, i laureati magistrali in Ingegneria Informatica avranno capacità di affrontare con rigore formale sia problematiche di ricerca informatica proponendo soluzioni originali e innovative, sia problemi informatici di tipo manageriale-ingegneristico proponendo soluzioni effettive ed efficienti.
 
 ---
 
 ### Struttura del corso
 
-La Laurea in Ingegneria Informatica ha una durata di tre anni ed è articolata in insegnamenti da 6/9/12 crediti,  corrispondenti rispettivamente a 60/90/120 ore di lezione in aula.
+La Laurea Magistrale in Ingegneria Informatica ha una durata di due anni ed è articolata in insegnamenti da 6/9/12 crediti,  corrispondenti rispettivamente a 60/90/120 ore di lezione in aula.
 
-Per il conseguimento della Laurea in Ingegneria Informatica è necessario acquisire almeno 180 crediti di cui:
-* 156 in insegnamenti didattici
-* 24  in  attività formative:
+Per il conseguimento della Laurea Magistrale in Ingegneria Informatica è necessario acquisire almeno 120 crediti di cui:
+* 84 in insegnamenti didattici
+* 36  in  attività formative:
   * autonomamente scelte dallo studente e coerenti con il progetto formativo (almeno 12 crediti);
-  * relative alla preparazione della prova finale (tesi di laurea, 3 crediti) e alla verifica della conoscenza di almeno una lingua straniera (3 crediti);
+  * relative alla preparazione della prova finale (tesi di laurea, 18 crediti);
   * volte ad agevolare le scelte professionali (6 crediti).
 
 
 ### Indirizzi ed insegnamenti
 
-Gli insegnamenti inseriti nel percorso formativo della laurea in Ingegneria Informatica possono essere inquadrati in quattro aree che hanno i seguenti obiettivi generali:
+Gli insegnamenti inseriti nel percorso formativo della Laurea Magistrale in Ingegneria Informatica possono essere inquadrati in due aree che hanno i seguenti obiettivi generali:
 
-* **Area A - Insegnamenti di base**: Fornire una solida preparazione di base: sia in senso generale (approfondendo temi relativi alle discipline matematiche e fisiche: Analisi matematica 1 e Analisi matematica 2, Fisica generale 1 e Fisica generale 2, Geometria, Probabilità e statistica, Ricerca operativa) sia in ambiti più vicini all’informatica (approfondendo temi relativi ad algebra, logica, teoria degli automi e linguaggi, algoritmi, linguaggi di programmazione: Algebra e logica, Automi e linguaggi, Fondamenti di informatica, Ingegneria degli algoritmi);
-* **Area B - Ingegneria informatica**:Calcolatori e reti Fornire una solida base di conoscenze e una adeguata preparazione sulla organizzazione, programmazione e progettazione dei moderni sistemi informatici e delle loro reti di interconnessione (Calcolatori elettronici, Ingegneria di Internet e Web, Sistemi operativi);
-* **Area C - Ingegneria dell'automazione**: Fornire una solida preparazione relativa alla programmazione e progettazione di moderne applicazioni software, o di sistemi per l’automazione e la robotica (Automazione e robotica, Basi di dati, Controlli automatici, Ingegneria del software e progettazione Web, Laboratorio di automatica, Mobile programming, Teoria dei sistemi);
-* **Area D - Ingegneria dell'informazione** Fornire una formazione di base in aree dell’Ingegneria dell’informazione contigue all’informatica, allo scopo di completare la formazione di un ingegnere informatico (Campi elettromagnetici, Fondamenti di controlli, Fondamenti di elettronica, Fondamenti di telecomunicazioni).
+* Fornire un percorso di approfondimento comune a tutti i laureandi magistrali, su tematiche fondamentali nella progettazione e gestione delle moderne reti e sistemi informatici complessi, quali: cloud computing; ingegneria del software; dimensionamento e analisi delle prestazioni e affidabilità di reti, impianti e sistemi informatici; machine learning.
+* Fornire percorsi differenziati di approfondimento su temi di particolare interesse nella formazione di un moderno ingegnere informatico, che includano big data e data science; progettazione, gestione e sviluppo di software di sistema e di applicazioni e sistemi paralleli, distribuiti e mobili su media/larga scala; sicurezza e protezione dei sistemi informatici.
 
-
-La Laurea in Ingegneria Informatica è organizzata in due indirizzi:
-* Sistemi software e Web
-* Robotica e automazione
+La prime area costituisce la parte comune del percorso formativo ed è uguale per tutti gli studenti. La seconda area viene invece coperta componendo in maniera opportuna gli insegnamenti messi a disposizione dal corso di laurea magistrale. 
 
 
+La Laurea Magistrale in Ingegneria Informatica è organizzata in quattro percorsi:
 
-{% include triennale_table.html %}
-
-
-La preparazione acquisita in ognuno dei due indirizzi viene integrata con insegnamenti a scelta libera (per un totale di almeno 12 crediti), che ogni studente può selezionare in base ai propri interessi culturali tra quelli insegnati in tutta l’Università di Roma Tor Vergata. Il Consiglio del Corso di Studi in Ingegneria Informatica suggerisce comunque di orientare la propria selezione all’interno della seguente lista di insegnamenti:
-
-* Materie appartenenti alle aree A, B, C, D, se non già presenti nel proprio piano di studi;
-* Algebra e logica (solo per indirizzo Robotica e automazione);
-* Chimica;
-* Elettrotecnica;
-* Filosofia della tecnica: fondamenti e implicazioni sociali;
-* Fisica tecnica (solo per indirizzo Robotica e automazione);
-* Laboratorio di automatica (solo per indirizzo Sistemi software e Web);
-* Meccanica applicata alle macchine (solo per indirizzo Robotica e automazione);
-* Mobile programming.
+* Cybersecurity
+* Data Science and Engineering
+* System and Software Engineering
 
 
+
+
+La preparazione acquisita nel percorso curricolare viene integrata con insegnamenti a scelta libera (per un totale di almeno 12 crediti), che ogni studente può selezionare in base ai propri interessi personali tra quelli insegnati presso l’Università degli Studi di Roma Tor Vergata. 
+Il Corso di Studi in Ingegneria Informatica suggerisce comunque di orientare la propria selezione all’interno della seguente lista di insegnamenti:
+ 
+* insegnamenti di indirizzo previsti nel percorso curricolare e non già inseriti nel proprio piano di studi;
+* Filosofia della tecnica: fondamenti e implicazioni sociali (6 CFU)
+* Internet of Things: principles and applications (6 CFU)
+* Internet technology and protocols (6 CFU)
+* Introduzione agli obiettivi per lo sviluppo sostenibile (3 CFU)[^1]
+* Informatica sostenibile (3 CFU)[^1]
+* Mobile wireless networks (9 CFU)
+* Remote sensing and cartography (9 CFU)
+* Satellite earth observation (9 CFU)
+* Teoria elementare dei numeri (6 CFU)
+* Web mining and retrieval (6 CFU)
+
+[^1]: I due insegnamenti devono essere sostenuti in sequenza: Introduzione agli obiettivi per lo sviluppo sostenibile, erogato nel corso di laurea magistrale in Economia dei Mercati e degli Intermediari finanziari al I semestre, e a seguire Informatica sostenibile, corso di laurea magistrale in Ingegneria Informatica, II semestre.
 
 ---
-
 
 ### Manifesto degli studi
 
@@ -137,8 +115,8 @@ In particolare, il regolamento specifica le norme che regolano i seguenti punti:
 
 Il testo completo del Regolamento Didattico in formato pdf è disponibile [qui][1]	
 
-[1]:{{ site.url }}/triennale/corso/Reg_Did_InformaticaTrienn_2016.pdf
-[2]: http://uniroma2public.gomp.it/PublicData?uid=15cd10f5-5764-42e1-a41f-3830e1bf51da&mode=course&iso=ita&academicYear=2023
-[3]: http://uniroma2public.gomp.it/PublicData?uid=22b36c01-1590-47e7-b425-d4006c7382bb&mode=classRoom&iso=ita&academicYear=2023
+[1]: {{ site.url }}/magistrale/corso/Reg_Did_InformaticaMagist_2016.pdf
+[2]: {{ site.data.magistrale.programmata }}
+[3]: {{ site.data.magistrale.erogata }}
 
 

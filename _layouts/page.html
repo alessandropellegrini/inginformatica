@@ -8,7 +8,8 @@ layout: default
 </p>
 </div>
 
-<div class="w3-row">
+<div class="w3-row w3-padding">
+    {% if page.toc %}
     <div class="w3-col w3-margin m2 w3-small">
         {% toc %}
     </div>
@@ -18,4 +19,12 @@ layout: default
             {{ content }}
         </p>
     </div>
+    {% else %}
+    <div class="w3-col w3-margin m12">
+        <h2>{{ page.title }}</h2>
+        <p class="w3-text-grey">
+            {{ content }}
+        </p>
+    </div>
+    {% endif %}
 </div>
