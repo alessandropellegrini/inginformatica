@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/style.css">
+    <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
+</head>
+<body>
+
+
+{% include menu.html %}
+
+<!-- Header 
+<header class="w3-container torve-green w3-center" style="padding-top:60px; padding-bottom:30px;"></header>
+-->
+
+{% include home_header.html %}
+
+
+<div class="w3-content">
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <p class="w3-text-grey">
+                {{ content }}
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<!--
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+    <div class="w3-xlarge w3-padding-32">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+</footer>
+-->
+
+<script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/code.js"></script>
+
+<script>
+function getHeight() {
+  var nav = document.getElementById("pinned_nav");
+  var nav_height = nav.offsetHeight*1.1; //append this var where you need to.
+  return nav_height;
+};
+
+let main_bd = document.getElementById("corsi_head");
+main_bd.setAttribute("style","margin-top:"+getHeight()+"px");
+//main_bd.style.paddingTop = "100px"; 
+
+</script>
+</body>
+</html>

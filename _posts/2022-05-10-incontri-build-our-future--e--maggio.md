@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title:  "Incontri &#8220;Build our Future&#8221; 13 e 26 maggio"
 ---
-	L’[ACM Student Chapter Rome Tor Vergata](http://acm.uniroma2.it/) organizza nell’ambito dell’iniziativa **Build your Future** un ciclo di incontri in cui le aziende invitate presenteranno casi di studio reali esponendo gli studenti e le studentesse a tecnologie, pattern e strumenti correntemente in uso per affrontare temi sfidanti in ambito industriale.   
+
+L’[ACM Student Chapter Rome Tor Vergata](http://acm.uniroma2.it/) organizza nell’ambito dell’iniziativa **Build your Future** un ciclo di incontri in cui le aziende invitate presenteranno casi di studio reali esponendo gli studenti e le studentesse a tecnologie, pattern e strumenti correntemente in uso per affrontare temi sfidanti in ambito industriale.
 
 
 I prossimi incontri in calendario sono:

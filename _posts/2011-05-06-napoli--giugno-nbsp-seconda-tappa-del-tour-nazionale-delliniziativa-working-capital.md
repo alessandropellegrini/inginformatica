@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title:  "Napoli, 15 giugno 2011:&nbsp; seconda tappa del Tour nazionale dell&#8217;iniziativa Working Capital"
 ---
-	Il 15 giugno prossimo si terrà a Napoli la seconda tappa del Tour nazionale dell’iniziativa Working Capital (<http://www.workingcapital.telecomitalia.it/>).
+
+Il 15 giugno prossimo si terrà a Napoli la seconda tappa del Tour nazionale dell’iniziativa Working Capital (<http://www.workingcapital.telecomitalia.it/>).
 
 Working Capital - Premio Nazionale Innovazione è il progetto di Telecom Italia e PNI Cube (l’Associazione degli Incubatori Universitari Italiani) che sostiene i giovani talenti dell’innovazione italiana e promuove la creazione di startup.
 

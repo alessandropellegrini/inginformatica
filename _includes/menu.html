@@ -1,61 +1,96 @@
 <!-- Navbar -->
-<div class="w3-top">
-    <div class="w3-bar torve-green  w3-left-align w3-large">
-        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="menuToggle()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <a href="{{ site.url }}{{ site.baseurl }}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-        <div class="w3-bar-item w3-button w3-hide-small w3-padding-large torve-hover-green">
-            <div class="dropdown">
-                <button class="dropbtn">Percorso Triennale</button>
-                <div class="dropdown-content">
-                    {% include menu-items.html category="triennale" %}
-                </div>
+<div class="w3-top w3-container torve-green" style="padding:0;margin:0;" id="pinned_nav">
+    <div class="w3-content">
+        <div class="w3-hide-small w3-row w3-padding w3-center">
+            <div class="w3-col m3">
+                <img class="w3-image" alt="Università degli Studi di Roma Tor Vergata" src="{{ site.url }}{{ site.baseurl }}/img/logo.png"/>
             </div>
-            <div class="dropdown">
-                <button class="dropbtn">Percorso Magistrale</button>
-                <div class="dropdown-content">
-                    {% include menu-items.html category="magistrale" %}
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Organizzazione</button>
-                <div class="dropdown-content">
-                    {% include menu-items.html category="organizzazione" %}
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Erasmus</button>
-                <div class="dropdown-content">
-                    {% include menu-items.html category="erasmus" %}
-                </div>
+            <div class="w3-col m9">
+                <h6 class="w3-margin w3-xlarge">Corso di Laurea in Ingegneria Informatica</h6>
             </div>
         </div>
-    </div>
+     
+        <div class="w3-bar w3-left-align w3-large w3-row">
+            <div class="w3-hide-medium w3-hide-large">
+                <div class="w3-row">
+                    <div class="w3-col s5 w3-padding">
+                        <img class="w3-image" alt="Università degli Studi di Roma Tor Vergata" src="{{ site.url }}{{ site.baseurl }}/img/logo.png"/>
+                    </div>
+                    <div class="w3-col s5 w3-right">
+                        <a class="w3-bar-item w3-button w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="menuToggle()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                    </div>
+                </div>    
+                <div class="w3-col s12">
+                    <h6 class="w3-margin w3-xlarge">Corso di Laurea in Ingegneria Informatica</h6>
+                </div>
+            </div>
 
-    <!-- Navbar on small screens -->
-    <div id="navMenu" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-        <div class="w3-bar-item w3-button">
-            <div class="dropdown">
-                <button class="dropbtn-black" >Percorso Triennale </button>
-                <div class="dropdown-content">
-                    {% include menu-items.html category="triennale" %}
+            <div class="w3-bar-item w3-button w3-hide-small torve-hover-green">
+                <div class="dropdown">
+                    <a href="{{ site.url }}/">
+                        <button class="dropbtn"><i class="fa fa-home"></i></button>
+                        <div class="dropdown-content"></div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a href="{{ site.url }}{{ site.baseurl }}/orientamento">
+                        <button class="dropbtn">Perché iscriversi?</button>
+                        <div class="dropdown-content"></div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Laurea</button>
+                    <div class="dropdown-content">
+                        {% include menu-items.html category="laurea" %}
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Laurea Magistrale</button>
+                    <div class="dropdown-content">
+                        {% include menu-items.html category="magistrale" %}
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="{{ site.url }}{{ site.baseurl }}/erasmus">
+                        <button class="dropbtn">Erasmus+</button>
+                        <div class="dropdown-content">
+                        </div>
+                    </a>
+                </div>
+                <div class="dropdown">
+                    <a href="{{ site.url }}{{ site.baseurl }}/contatti">
+                        <button class="dropbtn">Contatti</button>
+                        <div class="dropdown-content">
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="w3-bar-item w3-button">
-            <div class="dropdown">
-                <button class="dropbtn-black">Percorso Magistrale </button>
-                <div class="dropdown-content">
-                    {% include menu-items.html category="magistrale" %}
-                </div>
-            </div>
-        </div>
-        <div class="w3-bar-item w3-button">
-            <div class="dropdown">
-                <button class="dropbtn-black">Contatti Istituzionali </button>
-                <div class="dropdown-content">
-                    {% include menu-items.html category="contatti" %}
-                </div>
-            </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navMenu" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <ul class="torve-green">
+                <li><a href="{{ site.url }}/"><i class="fa fa-home"></i></a></li>
+                <li><a href="{{ site.url }}{{ site.baseurl }}/orientamento">Orientamento</a></li>
+                <li>Laurea</li>
+                    <ul>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/laurea/corso/">               Informazioni        </a></li>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/laurea/docenti_e_corsi/">     Docenti e corsi     </a></li>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/laurea/orario/">              Orario delle lezioni</a></li>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/laurea/piani/">               Piani di studio     </a></li>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/laurea/sessioni_di_laurea/">  Sessioni di laurea  </a></li>
+                    </ul>
+                <li>Laurea magistrale</li>
+                    <ul>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/magistrale/corso/">               Informazioni        </a></li>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/magistrale/docenti_e_corsi/">     Docenti e corsi     </a></li>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/magistrale/orario/">              Orario delle lezioni</a></li>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/magistrale/piani/">               Piani di studio     </a></li>
+                        <li><a href="{{ site.url }}{{ site.baseurl }}/magistrale/sessioni_di_laurea/">  Sessioni di laurea  </a></li>
+                    </ul>
+                <li><a href="{{ site.url }}{{ site.baseurl }}/erasmus">Erasmus+</a></li>
+                <li><a href="{{ site.url }}{{ site.baseurl }}/contatti">Contatti</a></li>
+            </ul>
         </div>
     </div>
 </div>

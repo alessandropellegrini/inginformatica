@@ -1,11 +1,11 @@
-
 ---
 layout: post
 title:  "Calendario corso di inglese per studenti Erasmus"
 ---
-	Presso il Centro Linguistico di Ateneo (CLA) Campus X, nel mese di maggio si terrà con il seguente calendario il corso d’Inglese per gli studenti Erasmus+ che hanno fatto domanda o debbono rifarla alla riapertura del bando, ed hanno bisogno di ottenere l’attestazione B1 o B2.
 
-**Calendario corso Inglese Erasmus+ maggio 2017**  
+Presso il Centro Linguistico di Ateneo (CLA) Campus X, nel mese di maggio si terrà con il seguente calendario il corso d’Inglese per gli studenti Erasmus+ che hanno fatto domanda o debbono rifarla alla riapertura del bando, ed hanno bisogno di ottenere l’attestazione B1 o B2.
+
+**Calendario corso Inglese Erasmus+ maggio 2017**
 1. Martedì 2 ore 9-12
 2. Giovedì 4 ore 9-12
 3. Lunedì 8 ore 8.30-11.30

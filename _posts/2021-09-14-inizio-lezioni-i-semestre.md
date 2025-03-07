@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title:  "Inizio lezioni I semestre"
 ---
-	Informazioni relative alle modalità per seguire le lezioni dei corsi erogati nel primo semestre dell’a.a. 2021/22 sono disponibili nella pagina [Corsi](http://inginformatica.uniroma2.it/index.php/corsi) di questo sito.
+
+Informazioni relative alle modalità per seguire le lezioni dei corsi erogati nel primo semestre dell’a.a. 2021/22 sono disponibili nella pagina [Corsi](http://inginformatica.uniroma2.it/index.php/corsi) di questo sito.
 
 Si raccomanda inoltre di iscriversi ai corsi su [Delphi](https://delphi.uniroma2.it/).
 

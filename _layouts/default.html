@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/style.css">
     <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/img/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
+
 {% include menu.html %}
 
-<!-- Header -->
-<header class="w3-container torve-green w3-center" style="padding:100px 16px">
-    <p class="w3-large"><img alt="Università degli Studi di Roma Tor Vergata" src="{{ site.url }}{{ site.baseurl }}/img/logo.png"/></p>
-    <h6 class="w3-margin w3-xxlarge">Corso di Laurea in Ingegneria Informatica</h6>
+<!-- Header 
+<header class="w3-container torve-green w3-center" style="padding-top:60px; padding-bottom:30px;">
 </header>
+-->
 
-<div class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-        <p class="w3-text-grey">
-            {{ content }}
-        </p>
+<div id="main_body" class="w3-content">
+    <div class="w3-row-padding w3-container">
+        <div class="w3-content">
+            <p class="w3-text-grey">
+                {{ content }}
+            </p>
+        </div>
     </div>
 </div>
 
@@ -41,5 +44,82 @@
 -->
 
 <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/code.js"></script>
+<script type="text/javascript">
+
+function getHeight() {
+  var nav = document.getElementById("pinned_nav");
+  var nav_height = nav.offsetHeight; //append this var where you need to.
+  return nav_height;
+};
+
+window.smoothScroll = function(target) {
+    var scrollContainer = target;
+    var tgt = target;
+    do { //find scroll container
+        scrollContainer = scrollContainer.parentNode;
+        if (!scrollContainer) return;
+        scrollContainer.scrollTop += 1;
+    } while (scrollContainer.scrollTop == 0);
+
+    var targetY = 0;
+    do { //find the top of target relatively to the container
+        if (target == scrollContainer) break;
+        targetY += target.offsetTop;
+    } while (target = target.offsetParent);
+    console.log(tgt, targetY, getHeight());
+    targetY -= getHeight();
+    const y = tgt.getBoundingClientRect().top + window.pageYOffset  - getHeight()*2;
+
+    console.log(tgt, y, targetY);
+    window.scrollTo({top: targetY, behavior: 'smooth'});
+
+/*
+    scroll = function(c, a, b, i) {
+        i++; if (i > 30) return;
+        c.scrollTop = a + (b - a) / 30 * i;
+        setTimeout(function(){ scroll(c, a, b, i); }, 20);
+    }
+    // start scrolling
+
+    scroll(scrollContainer, scrollContainer.scrollTop, targetY-getHeight(), 0);
+*/
+};
+
+if ('scrollRestoration' in window.history) {
+  window.history.scrollRestoration = 'manual'
+};
+
+let anchorlinks = document.querySelectorAll('a[href^="#"]')
+var offset = getHeight();
+
+for (let item of anchorlinks) { // relitere 
+    item.addEventListener('click', (e)=> {
+        let hashval = item.getAttribute('href');
+        let target = document.querySelector(hashval);
+        const y = target.getBoundingClientRect().top + window.pageYOffset  - 1*offset;
+        console.log(target, y);
+        //window.focus();
+        //document.body.scrollTo(0,0);//{top: y, behavior: 'smooth'});
+        setTimeout(function () {
+            window.scrollTo({top: y, behavior: 'smooth'});
+        },2);
+//        window.smoothScroll(target);
+  /*      target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        })*/
+//        history.pushState(null, null, hashval)
+ //       e.preventDefault()
+    })
+};
+
+let main_bd = document.getElementById("main_body");
+main_bd.setAttribute("style","margin-top:"+getHeight()+"px");
+//main_bd.style.paddingTop = "100px"; 
+
+</script>
+
+
+
 </body>
 </html>

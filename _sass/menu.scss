@@ -43,9 +43,12 @@
   margin: 0;
 }
 
+
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: green;
+  background-color: white;
+  color:#007d34 !important;
 }
+
 
 .dropdown-content {
   display: none;

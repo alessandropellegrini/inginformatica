@@ -1,0 +1,37 @@
+- who: Segreteria Didattica del Corso di Studi
+  why:
+    - testo: Informazioni relative alla organizzazione didattica del corso di laurea
+    - testo: Inoltro osservazioni e reclami relativi alla organizzazione e alla didattica del corso di laurea
+  how:
+    - field: Email
+      value: didattica.informatica@ing.uniroma2.it
+    - field: Indirizzo
+      value: edificio di Ingegneria Civile, piano terra, stanza 013
+- who: Segreteria Studenti della Macroarea di Ingegneria 
+  why:
+    - testo: Pratiche amministrative (e.g., iscrizioni, trasferimenti) 
+  how:
+    - field: Sito
+      value: <a href="http://ing.uniroma2.it/area-studenti/segreteria-studenti/">http://ing.uniroma2.it/area-studenti/segreteria-studenti/</a>
+    - field: Indirizzo
+      value: edificio Didattica
+- who: Coordinatrice del Corso di Studi
+  why:
+    - testo: Pratiche amministrative (e.g., iscrizioni, trasferimenti) 
+  how:
+    - field: "Prof.ssa Vittoria De Nitto Personé, Email"
+      value: denitto@ing.uniroma2.it
+- who: Referente dell'indirizzo di interesse
+  why:
+    - testo: Suggerimenti su piani di studio  
+  how:
+    - field: Sistemi software e web
+      value: Prof.ssa Vittoria De Nitto Personè, denitto@ing.uniroma2.it
+    - field: Robotica ed automazione
+      value: Prof. Sergio Galeani, sergio.galeani@uniroma2.it
+- who: Servizio "Chiama Tor Vergata" 
+  why:
+    - testo: Informazioni generali sull'ateneo   
+  how:
+    - field: Email
+      value: relazioni.pubblico@uniroma2.it

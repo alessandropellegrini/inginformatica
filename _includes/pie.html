@@ -1,0 +1,226 @@
+<div class="w3-container">
+    <h1 class="w3-center">Indirizzi e aree</h1>
+    <div class="w3-row">
+        <div class="w3-col m3">
+            <div class="w3-hide">
+                <input type="checkbox" id="A_scelta" onchange="updateChart()" checked disabled class="already-set hidden"> A scelta
+                <br>
+            </div>
+            <input type="checkbox" id="Analisi_matematica_1" onchange="updateChart()" checked disabled class="already-set"> Analisi matematica 1
+            <br>
+            <input type="checkbox" id="Analisi_matematica_2" onchange="updateChart()" checked disabled class="already-set"> Analisi matematica 2
+            <br>
+            <input type="checkbox" id="Fisica_1" onchange="updateChart()" checked disabled class="already-set"> Fisica 1
+            <br>
+            <input type="checkbox" id="Fisica_2" onchange="updateChart()" checked disabled class="already-set"> Fisica 2
+            <br>
+            <input type="checkbox" id="Geometria" onchange="updateChart()"  checked disabled class="already-set"> Geometria
+            <br>
+            <input type="checkbox" id="Probabilita_e_statistica" onchange="updateChart()"  checked disabled class="already-set"> Probabilità e statistica
+            <br>
+            <input type="checkbox" id="Ricerca_operativa" onchange="updateChart()" checked disabled class="already-set"> Ricerca operativa
+            <br>
+            <input type="checkbox" id="Fondamenti_di_elettronica" onchange="updateChart()" checked disabled class="already-set"> Fondamenti di elettronica
+            <br>
+            <input type="checkbox" id="Fondamenti_di_telecomunicazioni" onchange="updateChart()" checked disabled class="already-set"> Fondamenti di telecomunicazioni
+            <br>
+            <input type="checkbox" id="Fondamenti_di_informatica" onchange="updateChart()"  checked disabled class="already-set"> Fondamenti di informatica
+            <br>
+            <input type="checkbox" id="Ingegneria_degli_algoritmi" onchange="updateChart()"  checked disabled class="already-set"> Ingegneria degli algoritmi
+            <br>
+            <input type="checkbox" id="Calcolatori_elettronici" onchange="updateChart()" checked disabled class="already-set"> Calcolatori elettronici
+            <br>
+            <input type="checkbox" id="Sistemi_operativi" onchange="updateChart()" checked disabled class="already-set"> Sistemi operativi
+            <br>
+            <input type="checkbox" id="Ingegneria_del_software_e_progettazione_Web" onchange="updateChart()" checked disabled class="already-set"> Ingegneria del software e progettazione Web
+            <br>
+            <input type="checkbox" id="Fondamenti_di_controlli" onchange="updateChart()" checked disabled class="already-set"> Fondamenti di controlli
+            <br>
+            <input type="checkbox" id="Algebra_e_logica" onchange="updateChart()" class="already-set"> Algebra e logica
+            <br>
+            <input type="checkbox" id="Automi_e_linguaggi" onchange="updateChart()" class="already-set"> Automi e linguaggi
+            <br>
+            <input type="checkbox" id="Ingegneria_di_Internet_e_Web" onchange="updateChart()" class="already-set"> Ingegneria di Internet e Web
+            <br>
+            <input type="checkbox" id="Basi_di_dati" onchange="updateChart()" class="already-set"> Basi di dati
+            <br>
+            <input type="checkbox" id="Automazione_e_robotica" onchange="updateChart()" class="already-set"> Automazione e robotica
+            <br>
+            <input type="checkbox" id="Controlli_automatici" onchange="updateChart()" class="already-set"> Controlli automatici
+            <br>
+            <input type="checkbox" id="Laboratorio_di_automatica" onchange="updateChart()" class="already-set"> Laboratorio di automatica
+            <br>
+            <input type="checkbox" id="Teoria_dei_sistemi" onchange="updateChart()" class="already-set"> Teoria dei sistemi
+        </div>
+        <div class="w3-col m6">
+             <div id="chart-container" class="w3-card w3-white w3-padding">
+                 <canvas id="myChart"></canvas>
+                </div>
+                <div>
+                    <input type="radio" id="sistemi_software_e_web" name="courseChoice" onchange="updateChart()"> Sistemi software e web
+                    <br>
+                    <input type="radio" id="robotica_ed_automazione" name="courseChoice" onchange="updateChart()"> Robotica ed automazione
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript" >
+    let myPieChart;
+   
+    function updateChart() {
+        var selectedItems = [];
+
+
+        // Code to handle selection of "Sistemi software e web"
+        var sistemiCheckbox = document.getElementById('sistemi_software_e_web');
+        if (sistemiCheckbox.checked) {
+            var curBool = true;
+            // Select the associated courses
+            document.getElementById('Algebra_e_logica').checked = curBool;
+            document.getElementById('Automi_e_linguaggi').checked = curBool;
+            document.getElementById('Ingegneria_di_Internet_e_Web').checked = curBool;
+            document.getElementById('Basi_di_dati').checked = curBool;
+            curBool = !curBool;
+            document.getElementById('Automazione_e_robotica').checked = curBool;
+            document.getElementById('Controlli_automatici').checked = curBool;
+            document.getElementById('Laboratorio_di_automatica').checked = curBool;
+            document.getElementById('Teoria_dei_sistemi').checked = curBool;
+
+        }
+        if (robotica_ed_automazione.checked) {
+            var curBool = false;
+            // Select the associated courses
+            document.getElementById('Algebra_e_logica').checked = curBool;
+            document.getElementById('Automi_e_linguaggi').checked = curBool;
+            document.getElementById('Ingegneria_di_Internet_e_Web').checked = curBool;
+            document.getElementById('Basi_di_dati').checked = curBool;
+            curBool = !curBool;
+            document.getElementById('Automazione_e_robotica').checked = curBool;
+            document.getElementById('Controlli_automatici').checked = curBool;
+            document.getElementById('Laboratorio_di_automatica').checked = curBool;
+            document.getElementById('Teoria_dei_sistemi').checked = curBool;
+
+        }
+
+        var checkboxes = document.querySelectorAll('input[type=checkbox]:checked');
+        checkboxes.forEach(function(checkbox) {
+            selectedItems.push(checkbox.id);
+        });
+
+        var categories = {}
+            categories['Fondamenti di ingegneria'] = {
+                color: 'rgba(255, 99, 132, 0.5)',
+            };
+            categories["Ingegneria dell'automazione"]= {
+                color: 'rgba(54, 162, 235, 0.5)',
+            };
+
+        if ( !sistemiCheckbox.checked && !robotica_ed_automazione.checked){
+            console.log(data)
+            categories['Caratterizzanti'] = {
+                    color: 'rgba(75, 75, 75, 0.5)'
+                };
+        } 
+
+        categories['Ingegneria informatica']= {
+            color: 'rgba(255, 206, 86, 0.5)',
+        };
+       categories["Ingegneria dell'informazione"]= {
+            color: 'rgba(192, 15, 192, 0.5)',
+        };
+       categories['A scelta']= {
+            color: 'rgba(75, 192, 0, 0.5)',
+        };
+    
+
+        var weights = {
+            'Analisi_matematica_1': 12,
+            'Analisi_matematica_2': 6,
+            'Fisica_1': 9,
+            'Fisica_2': 6,
+            'Fondamenti_di_informatica': 9,
+            'Geometria': 9,
+            'Ingegneria_degli_algoritmi': 6,
+            'Probabilita_e_statistica': 6,
+            'Ricerca_operativa': 6,
+            'Calcolatori_elettronici': 9,
+            'Sistemi_operativi': 9,
+            'Ingegneria_del_software_e_progettazione_Web': 12,
+            'Mobile_programming': 6,
+            'Automazione_e_robotica': 12,
+            'Controlli_automatici': 6,
+            'Laboratorio_di_automatica': 6,
+            'Teoria_dei_sistemi': 6,
+            'Fondamenti_di_controlli': 9,
+            'Fondamenti_di_elettronica': 9,
+            'Fondamenti_di_telecomunicazioni': 9,
+            'Campi_elettromagnetici': 6,
+            'A_scelta': 12,
+            'Algebra_e_logica': 6,
+            'Automi_e_linguaggi': 6,
+            'Ingegneria_di_Internet_e_Web': 9,
+            'Basi_di_dati': 9
+        };
+
+
+        var data = {
+            labels: Object.keys(categories),
+            datasets: [{
+                data: Object.keys(categories).map(function(category) {
+                    return category === 'Caratterizzanti' ? 30 : selectedItems.reduce(function(acc, item) {
+                        return acc + (getCategory(item) === category ? (weights[item] || categories[category].weight) : 0);
+                    }, 0);
+                }),
+                backgroundColor: Object.keys(categories).map(function(category) {
+                    return categories[category].color;
+                }),
+                borderColor: Object.keys(categories).map(function(category) {
+                    return categories[category].color;
+                }),
+                borderWidth: 1
+            }]
+        };
+
+        var ctx = document.getElementById('myChart').getContext('2d');
+
+        if (myPieChart) {
+            myPieChart.destroy();
+        } 
+
+        myPieChart = new Chart(ctx, {
+            type: 'pie',
+            data: data,
+            options: {
+                animation: {
+                duration: 0 // Set animation duration to 0
+                }
+            }
+        });
+    }
+
+    function getCategory(course) {
+        if (course.includes('Analisi_matematica') || course.includes('Fisica') || course.includes('Geometria') ||
+            course.includes('Probabilita_e_statistica') || course.includes('Algebra_e_logica')) {
+            return 'Fondamenti di ingegneria';
+        } else if (course.includes('Fondamenti_di_controlli') || course.includes('Automi_e_linguaggi') || course.includes('Calcolatori_elettronici') || course.includes('Automazione_e_robotica') ||
+            course.includes('Controlli_automatici') || course.includes('Laboratorio_di_automatica') || course.includes('Teoria_dei_sistemi')) {
+            return "Ingegneria dell'automazione";
+        } else if ( course.includes('Fondamenti_di_elettronica') ||
+            course.includes('Fondamenti_di_telecomunicazioni') || course.includes('Campi_elettromagnetici')) {
+            return "Ingegneria dell'informazione";
+        }  else if ( course.includes('A_scelta')) {
+            return 'A scelta';
+        }
+        else {
+            return 'Ingegneria informatica';
+        }
+    }
+
+    // Initialize chart on page load
+        updateChart();
+
+</script>

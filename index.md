@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: home
 title: Benvenuti
 ---
-
-Testo introduttivo di prova
 
 ## Ultime comunicazioni
 

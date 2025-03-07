@@ -1,9 +1,9 @@
-
 ---
 layout: post
 title:  "Inizio lezioni II semestre"
 ---
-	Le lezioni del secondo semestre inizieranno lunedì 28 febbraio 2022.
+
+Le lezioni del secondo semestre inizieranno lunedì 28 febbraio 2022.
 
 Informazioni relative alle modalità per seguire le lezioni dei corsi erogati sono disponibili nella pagina [Corsi](http://inginformatica.uniroma2.it/index.php/corsi) di questo sito.
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Percorso Magistrale
+title: Laurea
 exclude-from-menu: true
 ---
 
