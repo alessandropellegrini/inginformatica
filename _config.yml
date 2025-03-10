@@ -34,7 +34,7 @@ news-in-home: 5
 paginate_path: "/comunicazioni/page:num/"
 paginate: 25
 
-website: http://alessandropellegrini.github.io/inginformatica
+website: 160.80.97.243:8000
 
 toc:
  min_level: 1
