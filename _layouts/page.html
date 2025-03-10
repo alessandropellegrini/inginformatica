@@ -9,22 +9,10 @@ layout: default
 </div>
 
 <div class="w3-row w3-padding">
-    {% if page.toc %}
-    <div class="w3-col w3-margin m2 w3-small">
-        {% toc %}
-    </div>
-    <div class="w3-col w3-margin m9">
-        <h2>{{ page.title }}</h2>
-        <p class="w3-text-grey">
-            {{ content }}
-        </p>
-    </div>
-    {% else %}
     <div class="w3-col w3-margin m12">
         <h2>{{ page.title }}</h2>
         <p class="w3-text-grey">
             {{ content }}
         </p>
     </div>
-    {% endif %}
 </div>
