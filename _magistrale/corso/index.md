@@ -19,7 +19,7 @@ ismagistrale: true
 
 ### Obiettivi formativi
 
-Il corso di Laurea Magistrale in ingegneria informatica intende formare laureati che abbiano un elevato livello di competenze metodologiche e operative nel campo dell’informatica e dell’automazione, unite a competenze di natura matematico-statistica. Grazie a queste competenze, i laureati magistrali in Ingegneria Informatica avranno capacità di affrontare con rigore formale sia problematiche di ricerca informatica proponendo soluzioni originali e innovative, sia problemi informatici di tipo manageriale-ingegneristico proponendo soluzioni effettive ed efficienti.
+Il corso di Laurea Magistrale in Ingegneria Informatica intende formare laureati che abbiano un elevato livello di competenze metodologiche e operative nel campo dell’informatica e dell’automazione, unite a competenze di natura matematico-statistica. Grazie a queste competenze, i laureati magistrali in Ingegneria Informatica avranno capacità di affrontare con rigore formale sia problematiche di ricerca informatica proponendo soluzioni originali e innovative, sia problemi informatici di tipo manageriale-ingegneristico proponendo soluzioni effettive ed efficienti.
 
 ---
 
